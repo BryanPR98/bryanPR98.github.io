@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Bryan Pineda">
+	<meta name="description" content="Proyecto personal de galería de dibujos">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thrash Draws</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animaciones.css">
+	<link rel="icon" href="img/favicon2.png" type="image/icon type">
+	<script defer src="js/proyect.js"></script>
+	<script src="https://kit.fontawesome.com/a3ee626986.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="bigcontainer">
+		<header id="home">
+			<nav class="navbar">
+				<a href="#"><img src="img/logo.png" class="logo"></a>
+				<button class="nav-toggle" aria-label="Abrir menú">
+				    <div class="containerb">
+				    	<a class="menu-link">
+				    	    <svg class="menu-icon" xmins="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+				    		    <g fill="none" fill rule="evenodd" stroke="#979797">
+				    			    <path d="M13,26.5 L88,26.5"/>
+				    			    <path d="M13,50.5 L88,50.5"/>
+				    			    <path d="M13,50.5 L88,50.5"/>
+				    			    <path d="M13,74.5 L88,74.5"/>
+				    		    </g>
+				    	    </svg>
+				        </a> 
+				    </div>
+				</button>
+				<ul class="nav-menu">
+					<li class="item"><a href="#">Home</a></li>
+					<li class="item"><a href="#sec1">About</a></li>
+					<li class="item"><a href="#sec2">Gallery</a></li>
+					<li class="item"><a href="#sec3">Store</a></li>
+					<li class="item"><a href="#sec4">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="bannervideo">
+				<video autoplay="" muted="" loop="">
+					<source src="video/thrashvideo.mp4" type="video/mp4">
+				</video>
+			</div>
+		</header>
+		<section id="sec1">
+			<h1>About</h1>
+		    <hr>
+		    <p>Hi! My name is Bryan Pineda, I started drawing because of my mom. At first they were cartoons that I used to see on television, little by little they became drawings inspired by tattoos. 
+            The style has been changing as I've grown, you can say that they have become a little darker, but roughly speaking I'm just an amateur who tries to improve day by day.
+            I invite you to know a little of what I do...</p>
+            <div class="burbujas">
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            	<div class="burbuja"></div>
+            </div>
+		</section>
+		<section id="sec2">
+			<h2>Gallery</h2>
+			<hr>
+			<div class="gallery">
+				<div>
+					<div class="draw"></div>
+					<div class="showimg"><a href="img/draw3.jpeg">See</a></div>
+				</div>
+				<div>
+					<div class="draw"></div>
+					<div class="showimg"><a href="img/draw5.jpeg">See</a></div>
+				</div>
+				<div>
+					<div class="draw"></div>
+					<div class="showimg"><a href="img/draw8.jpeg">See</a></div>
+				</div>
+				<div>
+					<div class="draw"></div>
+					<div class="showimg"><a href="img/draw7.jpeg">See</a></div>
+				</div>
+				<div>
+					<div class="draw"></div>
+					<div class="showimg"><a href="img/draw1.jpeg">See</a></div>
+				</div>
+				<div>
+					<div class="draw"></div>
+					<div class="showimg"><a href="img/draw2.jpeg">See</a></div>
+				</div>
+				<div>
+					<div class="draw"></div>
+					<div class="showimg"><a href="img/draw9.jpeg">See</a></div>
+				</div>
+				<div>
+					<div class="draw"></div>
+					<div class="showimg"><a href="img/draw6.jpeg">See</a></div>
+				</div>
+				<div>
+					<div class="draw"></div>
+					<div class="showimg"><a href="img/draw4.jpeg">See</a></div>
+				</div>
+			</div>
+		</section>
+		<section id="sec3">
+			<h3>Store</h3>
+			<hr>
+			<div class="cardcontainer">
+				<div class="card" id="c1">
+					<img src="img/draw12.jpeg">
+					<h4>MOOSHROOM DEAD</h4>
+					<hr>
+					<p>A small piece for sale, inspired by the fungi kingdom and death.</p>
+					<h5>Price: ₡1.500</h5>
+					<button>Buy</button>
+				</div>
+				<div class="card" id="c2">
+					<img src="img/draw11.jpeg">
+					<h4>ROTTEN HEART</h4>
+					<hr>
+					<p>A small piece for sale, inspired by the Catholicism and the rotten world.</p>
+					<h5>Price: ₡1.500</h5>
+					<button>Buy</button>
+				</div>
+				<div class="card" id="c3">
+					<img src="img/draw10.jpeg">
+					<h4>MARTYR´S EYE</h4>
+					<hr>
+					<p>A small piece for sale, inspired by biblical martyrs and the followers of christ.</p>
+					<h5>Price: ₡1.500</h5>
+					<button>Buy</button>
+				</div>
+			</div>
+		</section>
+		<section id="sec4">
+			<h3>Contact</h3>
+			<hr>
+			<form action="">
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name" placeholder="Name">
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" placeholder="Email" required="">
+				<label for="subject">Subject:</label>
+				<input type="text" name="subject" id="subject" placeholder="Subject"><br>
+				<label for="message">Message:</label>
+				<textarea name="message" for="message" placeholder="Describe your message." maxlength="300"></textarea>
+				<div><input class="butf" type="submit" name="Send" value="Send Message"></div>
+			</form>
+			<div class="social">
+				<a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+				<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+				<a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+				<a href="https://whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+			</div>
+			<a href="#"><img src="img/logo.png" class="logo2"></a>
+		</section>
+		<footer>
+			<p>&copy; Derechos Reservados</p>
+		</footer>
+	</div>
+</body>
+</html>
